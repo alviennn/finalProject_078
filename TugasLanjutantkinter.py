@@ -64,23 +64,24 @@ judul_label.grid(row=0, column=0, columnspan=2, pady=10)
 # Entry untuk input nilai mata pelajaran
 nama_label = tk.Label(root, text="Nama Siswa:")
 nama_label.grid(row=1, column=0, sticky=tk.W, padx=10, pady=5)
-nama_entry = tk.Entry(root)
+nama_entry = tk.Entry(root, width=30)  
 nama_entry.grid(row=1, column=1, padx=10, pady=5)
 
 biologi_label = tk.Label(root, text="Biologi:")
 biologi_label.grid(row=2, column=0, sticky=tk.W, padx=10, pady=5)
-biologi_entry = tk.Entry(root)
+biologi_entry = tk.Entry(root, width=30)
 biologi_entry.grid(row=2, column=1, padx=10, pady=5)
 
 fisika_label = tk.Label(root, text="Fisika:")
 fisika_label.grid(row=3, column=0, sticky=tk.W, padx=10, pady=5)
-fisika_entry = tk.Entry(root)
+fisika_entry = tk.Entry(root, width=30) 
 fisika_entry.grid(row=3, column=1, padx=10, pady=5)
 
 inggris_label = tk.Label(root, text="Inggris:")
 inggris_label.grid(row=4, column=0, sticky=tk.W, padx=10, pady=5)
-inggris_entry = tk.Entry(root)
+inggris_entry = tk.Entry(root, width=30) 
 inggris_entry.grid(row=4, column=1, padx=10, pady=5)
+
 
 # Label luaran hasil prediksi
 result_label = tk.Label(root, text="Hasil Prediksi: ", font=("Calibri", 12))
